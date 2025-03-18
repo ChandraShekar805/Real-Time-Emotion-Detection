@@ -31,6 +31,11 @@ This project aims to classify emotions on a person's face into one of seven cate
   - A deep Convolutional Neural Network (CNN) is trained to predict emotions. </br>                     
   - It outputs softmax scores for seven emotion classes.
 
+# 📌 Real-Time Implementation
+- The trained model is integrated with OpenCV to capture live video input.
+- The detected face is processed and fed into the CNN for emotion prediction.
+- The predicted emotion is displayed in real time with bounding boxes and labels
+
 # Display Results:
 
   - The emotion with the highest probability is displayed in real time on the screen.
@@ -40,6 +45,4 @@ This project aims to classify emotions on a person's face into one of seven cate
 # 🔗  References
 
 "Challenges in Representation Learning: A report on three machine learning contests." - I. Goodfellow et al., 2013
-
-[FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013)
 
