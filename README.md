@@ -40,12 +40,12 @@ This project aims to classify emotions on a person's face into one of seven cate
 
   - The emotion with the highest probability is displayed in real time on the screen.
 <p align="center">
-  <img src="images/results.jpeg" alt="Result 1" width="45%"/>
-  <img src="images/result1.jpeg" alt="Result 2" width="45%"/>
+  <img src="results.jpeg" alt="Result 1" width="45%"/>
+  <img src="result1.jpeg" alt="Result 2" width="45%"/>
 </p>
 <p align="center">
-  <img src="images/result3.jpeg" alt="Result 1" width="45%"/>
-  <img src="images/result4.jpeg" alt="Result 2" width="45%"/>
+  <img src="result3.jpeg" alt="Result 1" width="45%"/>
+  <img src="result4.jpeg" alt="Result 2" width="45%"/>
 </p>
 
 
