@@ -19,20 +19,20 @@ This project aims to classify emotions on a person's face into one of seven cate
 # 🔍 Algorithm Overview
 1. Face Detection: 
 
-Uses Haar Cascade Classifier to detect faces in frames.
+  - Uses Haar Cascade Classifier to detect faces in frames.
 
 2.Preprocessing:
 
-Detected faces are cropped, resized (48x48 pixels), and normalized.
+  - Detected faces are cropped, resized (48x48 pixels), and normalized.
 
 3.CNN Model for Emotion Classification:
 
-A deep Convolutional Neural Network (CNN) is trained to predict emotions. </br>                     
-It outputs softmax scores for seven emotion classes.
+  - A deep Convolutional Neural Network (CNN) is trained to predict emotions. </br>                     
+  - It outputs softmax scores for seven emotion classes.
 
-Display Results:
+# Display Results:
 
-The emotion with the highest probability is displayed in real time on the screen.
+  -The emotion with the highest probability is displayed in real time on the screen.
 
 
 # 🔗  References
