@@ -16,7 +16,8 @@ The preprocessing script can be found in dataset_prepare.py.
 
 
 # 🔍 Algorithm Overview
-Face Detection:
+Face Detection: 
+
 Uses Haar Cascade Classifier to detect faces in frames.
 Preprocessing:
 Detected faces are cropped, resized (48x48 pixels), and normalized.
