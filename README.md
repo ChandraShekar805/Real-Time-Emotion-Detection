@@ -4,15 +4,27 @@ This project aims to classify emotions on a person's face into one of seven cate
 😠 Angry | 🤢 Disgusted | 😨 Fearful | 😃 Happy | 😐 Neutral | 😢 Sad | 😲 Surprised
 
 
-# 📌 Data Preparation 
-The original FER-2013 dataset is available as a CSV file on Kaggle. For convenience, it has been converted into PNG images for training/testing. The preprocessing code is available in dataset_prepare.py.
+# 📌 Dataset and Data Preparation
+The FER-2013 dataset consists of 35,887 grayscale images (48x48 pixels), available in CSV format on Kaggle.
+It is preprocessed by converting the images from the CSV file into PNG format for easy loading and training.
+The dataset is split into Training (80%) and Validation (20%).
+Preprocessing steps include:
+Normalizing pixel values
+Data augmentation (flipping, rotation, zooming)
+Converting images to grayscale
+The preprocessing script can be found in dataset_prepare.py.
 
 
 # 🔍 Algorithm Overview
-1.Face Detection: Uses Haar Cascade to detect faces in each frame.
-2.Preprocessing: The detected face is resized to 48x48 pixels.
-3.Model Prediction: The CNN outputs softmax scores for the seven emotion classes.
-4.Display: The emotion with the highest probability is displayed on the screen.
+Face Detection:
+Uses Haar Cascade Classifier to detect faces in frames.
+Preprocessing:
+Detected faces are cropped, resized (48x48 pixels), and normalized.
+CNN Model for Emotion Classification:
+A deep Convolutional Neural Network (CNN) is trained to predict emotions.
+It outputs softmax scores for seven emotion classes.
+Display Results:
+The emotion with the highest probability is displayed in real time on the screen.
 
 
 # 🔗  References
