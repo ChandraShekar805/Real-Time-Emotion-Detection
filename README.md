@@ -16,7 +16,7 @@ The original FER-2013 dataset is available as a CSV file on Kaggle. For convenie
 
 
 # 🔗  References
-"Challenges in Representation Learning: A report on three machine learning contests." - I. Goodfellow et al., 2013
+[FER-2013 dataset]"Challenges in Representation Learning: A report on three machine learning contests." - I. Goodfellow et al., 2013
 
 
 
