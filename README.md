@@ -10,9 +10,9 @@ This project aims to classify emotions on a person's face into one of seven cate
 - It is preprocessed by converting the images from the CSV file into PNG format for easy loading and training.
 - The dataset is split into Training (80%) and Validation (20%).
 - Preprocessing steps include:
-- Normalizing pixel values
-- Data augmentation (flipping, rotation, zooming)
-- Converting images to grayscale
+  - Normalizing pixel values
+  - Data augmentation (flipping, rotation, zooming)
+  - Converting images to grayscale
 - The preprocessing script can be found in dataset_prepare.py.
 
 
