@@ -42,6 +42,11 @@ This project aims to classify emotions on a person's face into one of seven cate
 <img src="results.jpeg" alt="Results" width="250"/> 
 
 
+Before running the project, install the required dependencies using the following command:  
+
+```bash
+pip install numpy pandas tensorflow keras opencv-python matplotlib
+
 # 🔗  References
 
 "Challenges in Representation Learning: A report on three machine learning contests." - I. Goodfellow et al., 2013
