@@ -16,14 +16,19 @@ The preprocessing script can be found in dataset_prepare.py.
 
 
 # 🔍 Algorithm Overview
-Face Detection: 
+1. Face Detection: 
 
 Uses Haar Cascade Classifier to detect faces in frames.
-Preprocessing:
+
+2.Preprocessing:
+
 Detected faces are cropped, resized (48x48 pixels), and normalized.
-CNN Model for Emotion Classification:
-A deep Convolutional Neural Network (CNN) is trained to predict emotions.
+
+3.CNN Model for Emotion Classification:
+
+A deep Convolutional Neural Network (CNN) is trained to predict emotions. </br>                     
 It outputs softmax scores for seven emotion classes.
+
 Display Results:
 The emotion with the highest probability is displayed in real time on the screen.
 
