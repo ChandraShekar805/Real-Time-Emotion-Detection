@@ -44,8 +44,7 @@ This project aims to classify emotions on a person's face into one of seven cate
   <img src="result1.jpeg" alt="Result 2" width="45%"/>
 </p>
 <p align="center">
-  <img src="result3.jpeg" alt="Result 1" width="45%"/>
-  <img src="result4.jpeg" alt="Result 2" width="45%" height="250px"/>
+  <img src="result3.jpeg" alt="Result3" width="45%"/>
 </p>
 
 
